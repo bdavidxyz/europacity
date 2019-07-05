@@ -1,3 +1,11 @@
+a.c-button {
+  color: white;
+}
+
+.main-navigation {
+  background-color: #74AD4F;
+}
+
 .nav-search-enabled .main-navigation .menu-toggle {
   text-align: center;
 }
