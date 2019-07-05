@@ -1,0 +1,218 @@
+.nav-search-enabled .main-navigation .menu-toggle {
+  text-align: center;
+}
+
+.c-join.is-first {
+  margin-top: 20px;
+}
+
+
+.o-media .c-frontitle {
+  margin-top: 0rem;
+}
+
+.o-media {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 3.5rem;
+}
+
+.o-media-figure {
+  margin-right: 0;
+}
+
+.o-media-body {
+  flex: 1;
+}
+
+.c-title-container {
+  display: flex;  
+}
+
+.c-title-container svg {
+  margin-top: auto;
+  margin-bottom: .5rem;
+}
+
+.c-agenda-date {
+  margin-bottom: 0rem;
+  color: #a8a8a8;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.c-button {
+  display: block;
+  border-radius: 0px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  width: 160px;
+  margin: 0px auto 20px auto;
+  background-color: #74AD4F;
+}
+
+.c-button:hover {
+  background: #D96F29;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  color: #FFFFFF;
+}
+
+.c-lastpubdate p {
+  margin-bottom: 0.5rem;
+  color: #a8a8a8;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.c-lastpub ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 0;
+}
+
+.c-lastpub li {
+  margin-bottom: 1.5rem;
+}
+
+
+.c-lastpub a {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .one-container .container, .separate-containers .paging-navigation, .inside-page-header {
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .c-welcome-main {
+    padding-right: 2rem;
+  }
+}
+
+.main-navigation a {
+  font-size: 16px;  
+}
+
+.is-lineable {
+  overflow: hidden;
+}
+.is-lineable:after {
+  content:"";
+  display: inline-block;
+  height: 0.5em;
+  vertical-align: bottom;
+  width: 100%;
+  margin-right: -100%;
+  margin-left: 10px;
+  border-top: 2px solid #a3bb8e;
+}
+
+a, a:visited {
+  color: #D96F28;
+  font-weight: 600; 
+}
+
+.c-last-actions {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.c-frontitle {
+  color: #a3bb8e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-left: 0;
+  margin-bottom: 0.5rem;
+  margin-top: 3.5rem;
+}
+
+.c-main-color {
+  fill: #a3bb8e;
+}
+
+.c-frontitle.is-outside-container {
+  padding-left: 10px;
+}
+
+.c-frontitle.is-agenda {
+  margin-bottom: 1.5rem;
+}
+
+.c-frontext.is-main {
+  font-size: 16px;
+}
+
+.c-frontitle.is-the-one {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.c-frontext {
+  margin-bottom: 0;
+}
+
+.c-card-lastaction-title {
+  font-weight: bold;
+}
+
+.c-card-lastaction-link {
+  margin-top: auto;
+}
+
+.c-card-lastaction-words {
+  padding-bottom: .4rem;
+}
+
+.c-card-lastaction-date {
+  color: lightslategray;
+  margin-bottom: .5rem;
+}
+
+.c-card.is-muted {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+
+@media (min-width: 1033px) {
+  .c-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.c-card {
+  background-color: white;
+  border-radius: 4px;
+  text-overflow: hidden;
+  font-size:16px;
+  padding: .7rem;
+  padding-left: 0
+}
+
+#masthead {
+     background-image: url(https://res.cloudinary.com/bdavidxyz-com/image/upload/v1561732067/bglight-min_d3gizi.png);
+    background-size: 240px 240px;
+    background-repeat: repeat-x;
+  opacity:1;
+}
+.menu-toggle {
+  padding: 0 45px;
+}
+
+.inside-header {
+  padding: 30px;
+}
+
+.site-description {
+  font-size: 17px;
+}
